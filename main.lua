@@ -29,7 +29,7 @@ end
 
 function love.draw()
     
-  
+    love.graphics.rectangle("fill", 345, 256, 34, 63)
     love.graphics.rectangle("fill", enemy.x, enemy.y, enemy.w, enemy.h)
     love.graphics.draw(image, player.x, player.y)
     
