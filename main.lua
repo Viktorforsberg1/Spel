@@ -1,4 +1,4 @@
-love.window.setTitle("Hejsan")
+love.window.setTitle("Debris")
 
 function love.load()
 
